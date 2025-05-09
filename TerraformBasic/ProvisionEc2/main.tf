@@ -25,7 +25,7 @@ resource "aws_security_group" "aws-sg-1" {
         from_port   = 22
         to_port     = 22
         protocol    = "tcp"
-        cidr_blocks = ["124.104.36.172/32"]
+        cidr_blocks = ["your ip address here"] #curl ifconfig.me to show your public ip address
     }
 
     ingress {
